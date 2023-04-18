@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "img": "src/assets/html.png",
+    "name": "HTML",
+    "questions": [
+      {
+        "question": "Why We Use <br> Element?",
+        "options": [
+          "To Make Text Bold",
+          "To Make Text Italic",
+          "To Add Breakline",
+          "To Create Horizontal Line"
+        ],
+        "right_answer": "To Add Breakline"
+      },
+      {
+        "question": "Is <img> Element Has Attribute href?",
+        "options": [
+          "Yes",
+          "No Its For Anchor Tag <a>",
+          "All Elements Has This Attribute",
+          "Answer 1 And 3 Is Right"
+        ],
+        "right_answer": "No Its For Anchor Tag <a>"
+      },
+      {
+        "question": "How Can We Make Element Text Bold?",
+        "options": [
+          "Putting It Inside <b> Tag",
+          "Putting It Inside <strong> Tag",
+          "Customizing It With Font-Weight Property In CSS",
+          "All options Is Right"
+        ],
+        "right_answer": "All options Is Right"
+      },
+      {
+        "question": "What Is The Right Hierarchy For Creating Part Of Page?",
+        "options": [
+          "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+          "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+          "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+          "All Solutions Is Wrong"
+        ],
+        "right_answer": "All Solutions Is Wrong"
+      },
+      {
+        "question": "How Can We Include External Page Inside Our HTML Page?",
+        "options": [
+          "By Using Include in HTML",
+          "By Using Load In HTML",
+          "By Using iFrame Tag",
+          "All Solutions Is Wrong"
+        ],
+        "right_answer": "By Using iFrame Tag"
+      },
+      {
+        "question": "What Is The Tag That Not Exists in HTML?",
+        "options": [
+          "<object>",
+          "<basefont>",
+          "<abbr>",
+          "All Tags Is Exists in HTML"
+        ],
+        "right_answer": "All Tags Is Exists in HTML"
+      },
+      {
+        "question": "How We Specify Document Type Of HTML5 Page?",
+        "options": [
+          "<DOCTYPE html>",
+          "<DOCTYPE html5>",
+          "<!DOCTYPE html5>",
+          "<!DOCTYPE html>"
+        ],
+        "right_answer": "<!DOCTYPE html>"
+      },
+      {
+        "question": "What Is The Element Thats Not Exists in HTML5 Semantics?",
+        "options": ["<article>", "<section>", "<blockquote>", "<aside>"],
+        "right_answer": "<blockquote>"
+      },
+      {
+        "question": "In HTML Can We Use This Way To Add Attributes",
+        "options": [
+          "<div class='class-name'>",
+          "<div class=class-name>",
+          "<div class=\"class-name\">",
+          "All Is Right"
+        ],
+        "right_answer": "All Is Right"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "src/assets/css.png",
+    "name": "CSS",
+    "questions": [
+      {
+        "question": "What does CSS stand for?",
+        "options": [
+          "Computer Style Sheets",
+          "Creative Style Sheets",
+          "Cascading Style Sheets",
+          "Colorful Style Sheets"
+        ],
+        "right_answer": "Cascading Style Sheets"
+      },
+      {
+        "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+        "options": [
+          "In the <head> section",
+          "In the <body> section",
+          "At the end of the document",
+          "You can't refer to an external style sheet"
+        ],
+        "right_answer": "In the <head> section"
+      },
+      {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "options": ["<style>", "<script>", "<headStyle>", "<css>"],
+        "right_answer": "<style>"
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": ["class", "style", "font", "styles"],
+        "right_answer": "style"
+      },
+      {
+        "question": "Which is the correct CSS syntax?",
+        "options": [
+          "{body:color=black;}",
+          "{body;color:black;}",
+          "body:color=black;",
+          "body {color: black;}"
+        ],
+        "right_answer": "body {color: black;}"
+      },
+      {
+        "question": "How do you insert a comment in a CSS file?",
+        "options": [
+          "' this is a comment",
+          "/* this is a comment */",
+          "// this is a comment",
+          "// this is a comment //"
+        ],
+        "right_answer": "/* this is a comment */"
+      },
+      {
+        "question": "Which property is used to change the background color?",
+        "options": ["color", "bgcolor", "background-color", "bgColor"],
+        "right_answer": "background-color"
+      },
+      {
+        "question": "How do you add a background color for all <h1> elements?",
+        "options": [
+          "all.h1 {background-color:#FFFFFF;}",
+          "h1.setAll {background-color:#FFFFFF;}",
+          "h1.all {background-color:#FFFFFF;}",
+          "h1 {background-color:#FFFFFF;}"
+        ],
+        "right_answer": "h1 {background-color:#FFFFFF;}"
+      },
+      {
+        "question": "Which CSS property is used to add a border to an element?",
+        "options": [
+          "border-style",
+          "border-width",
+          "border-color",
+          "All of the above"
+        ],
+        "right_answer": "All of the above"
+      },
+      {
+        "question": "Which CSS property is used to control the spacing between lines of text?",
+        "options": ["line-height", "spacing", "letter-spacing", "word-spacing"],
+        "right_answer": "line-height"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "src/assets/JavaScript.png",
+    "name": "JavaScript",
+    "questions": [
+      {
+        "question": "What is JavaScript?",
+        "options": [
+          "A programming language",
+          "A markup language",
+          "A database technology",
+          "A web browser"
+        ],
+        "right_answer": "A programming language"
+      },
+      {
+        "question": "What is the difference between null and undefined?",
+        "options": [
+          "They are the same",
+          "Undefined means a variable has been declared but has not yet been assigned a value, while null is an assignment value",
+          "Undefined is an assignment value, while null means a variable has been declared but has not yet been assigned a value",
+          "Null means a variable has been declared but has not yet been assigned a value, while undefined is an assignment value"
+        ],
+        "right_answer": "Undefined means a variable has been declared but has not yet been assigned a value, while null is an assignment value"
+      },
+      {
+        "question": "What is the DOM?",
+        "options": [
+          "A programming language",
+          "A markup language",
+          "A database technology",
+          "A web API"
+        ],
+        "right_answer": "A web API"
+      },
+      {
+        "question": "What is a closure?",
+        "options": [
+          "A function that has access to variables in its outer scope",
+          "A way to declare a variable that cannot be changed",
+          "A way to declare a function that cannot be changed",
+          "A way to create a new object"
+        ],
+        "right_answer": "A function that has access to variables in its outer scope"
+      },
+      {
+        "question": "What is event bubbling?",
+        "options": [
+          "The process of capturing all events on a page",
+          "The process of capturing events on the child elements of an element",
+          "The process of capturing events on the parent elements of an element",
+          "The process of capturing events on all elements on a page"
+        ],
+        "right_answer": "The process of capturing events on the parent elements of an element"
+      },
+      {
+        "question": "What is a promise?",
+        "options": [
+          "A way to handle errors in JavaScript",
+          "A way to handle asynchronous operations in JavaScript",
+          "A way to handle arrays in JavaScript",
+          "A way to handle objects in JavaScript"
+        ],
+        "right_answer": "A way to handle asynchronous operations in JavaScript"
+      },
+      {
+        "question": "What is a callback function?",
+        "options": [
+          "A function that is called when an event occurs",
+          "A function that is passed as an argument to another function",
+          "A function that is called when an error occurs",
+          "A function that is called when a promise is resolved"
+        ],
+        "right_answer": "A function that is passed as an argument to another function"
+      },
+      {
+        "question": "What is scope in JavaScript?",
+        "options": [
+          "The range of values that a variable can hold",
+          "The range of functions that can access a variable",
+          "The range of values that a function can return",
+          "The range of objects that can be created in JavaScript"
+        ],
+        "right_answer": "The range of functions that can access a variable"
+      },
+      {
+        "question": "What is a closure in JavaScript?",
+        "options": [
+          "A function that returns another function",
+          "A function that has access to its outer function scope even after the outer function has returned",
+          "A function that has no name",
+          "A function that can only be called once"
+        ],
+        "right_answer": "A function that has access to its outer function scope even after the outer function has returned"
+      },
+      {
+        "question": "What is the output of this code: console.log(1 + '2' + '2');",
+        "options": ["122", "32", "14", "NaN"],
+        "right_answer": "122"
+      }
+    ]
+  }
+]

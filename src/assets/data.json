@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "src/assets/html.png",
+    "img": "/html.png",
     "name": "HTML",
     "questions": [
       {
@@ -93,7 +93,7 @@
   },
   {
     "id": 2,
-    "img": "src/assets/css.png",
+    "img": "/css.png",
     "name": "CSS",
     "questions": [
       {
@@ -180,7 +180,7 @@
   },
   {
     "id": 3,
-    "img": "src/assets/JavaScript.png",
+    "img": "/JavaScript.png",
     "name": "JavaScript",
     "questions": [
       {

@@ -5,7 +5,7 @@ const props = defineProps(["quiz"]);
 <template>
   <div class="card">
     <RouterLink :to="`/${quiz.name}`">
-      <img :src="quiz.img" :alt="`${quiz.name} image`" />
+      <img :src="quiz.img" :alt="`${quiz.name} image`" :required="true"/>
     </RouterLink>
     <h3>{{ quiz.name }}</h3>
     <p>{{ quiz.questions.length }} Questions</p>
